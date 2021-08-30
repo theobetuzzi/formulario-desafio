@@ -1,0 +1,178 @@
+* {
+    padding:0px;
+    margin: 0px;
+    color: black;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+
+header {
+    display: flex; 
+    justify-content:space-around;
+    width: 99%;
+    padding: 7px; 
+    margin-bottom: 10px;    
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #0ED2F7;
+}
+   
+
+h1 {
+    font-size: 170%;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 140%;
+}
+
+form {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+}
+
+.page-header {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.flex-containerPrimeiraLinha {
+    display: flex; 
+    justify-content: left;
+}
+
+.flex-containerPrimeiraLinha div {
+    margin: 5px;
+}
+
+.flex-containerSegundaLinha {
+    display: flex; 
+    justify-content: left;
+}
+
+.flex-containerSegundaLinha div {
+    margin: 5px;
+}
+
+.flex-containerTerceiraLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerTerceiraLinha div {
+    margin: 5px;
+}
+
+.flex-containerQuartaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerQuartaLinha div {
+    margin: 5px;
+}
+
+.flex-containerQuintaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerQuintaLinha div {
+    margin: 5px;
+}
+
+.flex-containerSextaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerSextaLinha div {
+    margin: 5px;
+}
+
+.flex-containerSetimaLinha {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerSetimaLinha div {
+    margin: 5px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: #0ED2F7;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+    margin-left: 155px;
+}
+  
+.button:hover {
+    background-color: #56CCF2;
+    color: white;
+}
+
+.button:active {
+    background-color:rgb(89, 114, 160);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonInput {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color: #0ED2F7;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #8e9eab;
+}
+  
+.buttonInput:hover {
+    background-color: #56CCF2;
+    color: white;
+}
+
+.buttonInput:active {
+    background-color: #56CCF2;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 99%;
+    background-color: #56CCF2;
+    text-align: center;
+    font-size: 70%;
+    padding: 5px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}

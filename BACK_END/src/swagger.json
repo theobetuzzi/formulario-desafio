@@ -1,0 +1,123 @@
+{
+    "openapi": "3.0.0",
+  
+    "info": {
+      "title": "API Formulario",
+      "description": "essa é a api do meu formulario",
+      "version": "0.0.1"
+    },
+  
+    "servers": [
+      {
+        "url": "http://localhost:5000",
+        "description": "ambiente de desenvolvimento"
+      }
+    ],
+  
+    "paths": {
+      "/register": {
+        "post": {
+          "summary": "Cadastro de candidato",
+          "description": "Rota de cadastro de usuário, recebe: nomeCompleto, cargoPretendido, dataDeNascimento, estadoCivil, sexo, cep, endereco, numero, bairro, cidade, UF, telefoneFixo1, telefoneFixo2, celular, email, identidade, cpf, possuiVeiculo, habilitacao",
+          "tags": ["candidato"],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "nomeCompleto": {
+                      "type": "string"
+                    },
+                    "cargoPretendido": {
+                      "type": "string"
+                    },
+                    "dataDeNascimento": {
+                      "type": "string"
+                    },
+                    "estadoCivil": {
+                      "type": "string"
+                    },
+                    "sexo": {
+                        "type": "string"
+                      },
+                      "cep": {
+                        "type": "number"
+                      },
+                      "endereco": {
+                        "type": "string"
+                      },
+                      "numero": {
+                        "type": "string"
+                      },
+                      "bairro": {
+                        "type": "string"
+                      },
+                      "cidade": {
+                        "type": "string"
+                      },
+                      "UF": {
+                        "type": "string"
+                      },
+                      "telefoneFixo1": {
+                        "type": "string"
+                      },
+                      "telefoneFixo2": {
+                        "type": "string"
+                      },
+                      "celular": {
+                        "type": "string"
+                      },
+                      "contato": {
+                        "type": "string"
+                      },
+                      "email": {
+                        "type": "string"
+                      },
+                      "identidade": {
+                        "type": "string"
+                      },
+                      "cpf": {
+                        "type": "number"
+                      },
+                      "possuiVeiculo": {
+                        "type": "string"
+                      },
+                      "habilitacao": {
+                        "type": "string"
+                      }      
+                    
+                  }
+                },
+                "examples": {
+                  "Eu": {
+                    "value": {
+                      "nomeCompleto": "Theodoro Betuzzi",
+                      "cargoPretendido": "Administração",
+                      "dataDeNascimento": "11/07/1997",
+                      "estadoCivil": "Solteiro",
+                      "sexo": "Masculino",
+                      "cep": "12345678",
+                      "endereco": "Rua das Flores",
+                      "numero": "100",
+                      "bairro": "Jardim Iracema",
+                      "cidade": "Sertãozinho",
+                      "UF": "SP",
+                      "telefoneFixo1": "(00)1111-1111",
+                      "telefoneFixo2": "(00)2222-2222",
+                      "celular": "(00)93333-3333",
+                      "contato": "(00)94444-4444 - Mãe",
+                      "email": "theosinho@gmail.com",
+                      "identidade": "33777777x",
+                      "cpf": "99988855500",
+                      "possuiVeiculo": "Não",
+                      "habilitacao": "Sim"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
